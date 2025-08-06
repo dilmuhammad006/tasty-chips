@@ -1,5 +1,11 @@
 import { Background, LaysS, NextIcon2, Persons, Zigzag } from "../../assets";
-import { Button, Section1, Section2 } from "../../components";
+import {
+  Button,
+  Section1,
+  Section2,
+  Section3,
+  Section4,
+} from "../../components";
 import "./home.scss";
 import Lays from "../../assets/icons/main/image 770.svg";
 
@@ -39,6 +45,8 @@ const Home = () => {
       </div>
       <Section1 />
       <Section2 />
+      <Section3 />
+      <Section4 />
     </div>
   );
 };

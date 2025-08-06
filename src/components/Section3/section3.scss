@@ -1,0 +1,50 @@
+.section3 {
+  background-color: #fff0de;
+  padding: 90px 0;
+  margin-top: 100px;
+  .container {
+    display: flex;
+    gap: 39px;
+
+    .wrapper {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      .text {
+        max-width: 545px;
+        width: 100%;
+        p {
+          color: #1e2438;
+
+          &:nth-child(1) {
+            font-weight: 500;
+            font-size: 80px;
+            line-height: 100%;
+            letter-spacing: 0em;
+            font-family: "Scotch Deck", serif;
+          }
+          &:nth-child(3) {
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 170%;
+            letter-spacing: 0em;
+          }
+        }
+        hr {
+          margin: 20px 0;
+          border: 2px solid #d9d9d9;
+        }
+      }
+      .lays {
+        background: radial-gradient(
+          86.9% 86.9% at 50% 50%,
+          #f4777c 0%,
+          #7d0f13 100%
+        );
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+    }
+  }
+}

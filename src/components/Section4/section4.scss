@@ -1,0 +1,49 @@
+.section4 {
+  margin-top: 174px;
+  position: relative;
+
+  img{
+    position: absolute;
+    left: 477.73px;
+    top: -100px;
+  }
+
+  .container {
+    display: flex;
+    justify-content: space-between;
+
+    .card {
+      &:nth-child(1) {
+        max-width: 400px;
+        width: 100%;
+        color: #1e2438;
+        font-weight: 500;
+        font-size: 74px;
+        line-height: 100%;
+        letter-spacing: 0em;
+        font-family: "Scotch Deck", serif;
+      }
+      &:nth-child(2) {
+        max-width: 352px;
+        width: 100%;
+        color: #1e2438;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        h2 {
+          font-weight: 500;
+          font-size: 24px;
+          line-height: 100%;
+          letter-spacing: 0em;
+          font-family: "Scotch Deck", serif;
+        }
+        .span {
+          font-weight: 500;
+          font-size: 16px;
+          line-height: 170%;
+          letter-spacing: 0em;
+        }
+      }
+    }
+  }
+}
