@@ -1,10 +1,4 @@
-import {
-  Background,
-  LaysS,
-  NextIcon2,
-  Persons,
-  Zigzag,
-} from "../../assets";
+import { Background, LaysS, NextIcon2, Persons, Zigzag } from "../../assets";
 import { Button } from "../../components";
 import "./home.scss";
 import Lays from "../../assets/icons/main/image 770.svg";
@@ -36,7 +30,7 @@ const Home = () => {
             <span>Best</span>
           </div>
           <div className="explore fc">
-            <div className="next fc">
+            <div className="next fc scale">
               <NextIcon2 />
             </div>
             <span>Explore</span>

@@ -33,6 +33,13 @@ nav {
     }
     .buttons {
       gap: 20px;
+
+      div {
+        &:hover {
+          cursor: pointer;
+          transform: scale(1.02);
+        }
+      }
     }
   }
 }

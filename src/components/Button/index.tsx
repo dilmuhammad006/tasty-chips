@@ -7,7 +7,7 @@ interface ButtonProps {
 
 const Button: React.FC<ButtonProps> = ({ text }) => {
   return (
-    <button className="fc">
+    <button className="fc scale">
       <span>{text}</span>
       <NextIcon1 />
     </button>

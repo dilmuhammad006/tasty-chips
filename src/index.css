@@ -9,6 +9,7 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+  outline: none;
 }
 
 body {
@@ -27,4 +28,8 @@ body {
 a {
   color: white;
   text-decoration: none;
+}
+.scale:hover{
+  transform: scale(1.02);
+  cursor: pointer;
 }

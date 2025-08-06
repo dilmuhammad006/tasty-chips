@@ -16,8 +16,12 @@ const NavbarLayout = () => {
           <NavLink to={"/"}>Services</NavLink>
         </div>
         <div className="buttons fc">
-          <SearchIcon />
-          <BasketIcon />
+          <div className="scale">
+            <SearchIcon />
+          </div>
+          <div className="scale">
+            <BasketIcon />
+          </div>
         </div>
       </div>
     </nav>
