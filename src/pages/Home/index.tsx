@@ -5,6 +5,7 @@ import {
   Section2,
   Section3,
   Section4,
+  Section5,
 } from "../../components";
 import "./home.scss";
 import Lays from "../../assets/icons/main/image 770.svg";
@@ -47,6 +48,7 @@ const Home = () => {
       <Section2 />
       <Section3 />
       <Section4 />
+      <Section5 />
     </div>
   );
 };

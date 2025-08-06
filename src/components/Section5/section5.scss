@@ -1,0 +1,67 @@
+.section5 {
+  section {
+    max-width: 1002px;
+    width: 100%;
+    padding: 100px 0;
+    background-color: #b1464a;
+    margin: 250px auto 0 auto;
+
+    .text {
+      max-width: 662px;
+      width: 100%;
+      margin: 0 auto;
+      p {
+        text-align: center;
+        letter-spacing: -0.02em;
+        &:nth-child(1) {
+          color: #fff;
+          font-weight: 100;
+          font-size: 48px;
+          line-height: 115%;
+          font-family: "Scotch Deck", serif;
+        }
+        &:nth-child(2) {
+          font-weight: 400;
+          font-size: 18px;
+          line-height: 165%;
+          color: rgb(182, 175, 175);
+        }
+      }
+    }
+    .subscribe {
+      max-width: 526px;
+      width: 100%;
+      margin: 0 auto;
+      margin-top: 32px;
+      display: flex;
+      padding: 14px;
+      background-color: #fff;
+      border-radius: 6px;
+      justify-content: space-between;
+
+      button {
+        max-width: 172px;
+        width: 100%;
+        border: none;
+        background: linear-gradient(180deg, #e47479 17.59%, #b1464a 95.19%);
+        color: #fff;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 150%;
+        letter-spacing: 0em;
+      }
+      input {
+        border: none;
+        width: 100%;
+
+        &::placeholder {
+          color: #1e243882;
+          font-weight: 400;
+          font-size: 18px;
+          line-height: 213%;
+          letter-spacing: 0px;
+        }
+      }
+    }
+  }
+}
