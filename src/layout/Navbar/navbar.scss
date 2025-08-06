@@ -1,0 +1,38 @@
+nav {
+  min-height: 120px;
+  max-height: 120px;
+  background: #b1464a;
+  border-bottom: 1px solid #fff;
+
+  .container {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+
+    .logo {
+      gap: 10px;
+
+      span {
+        color: #ffffff;
+        font-weight: 400;
+        font-size: 36px;
+        line-height: 136%;
+        letter-spacing: 0.12em;
+      }
+    }
+    .link {
+      gap: 47px;
+
+      a {
+        color: #ffffff;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 136%;
+        letter-spacing: 0.02em;
+      }
+    }
+    .buttons {
+      gap: 20px;
+    }
+  }
+}

@@ -1,0 +1,76 @@
+.home {
+  margin-bottom: 100px;
+  position: relative;
+  .container {
+    .title {
+      color: #fff;
+      font-weight: 700;
+      font-size: 110px;
+      line-height: 136%;
+      letter-spacing: 0.04em;
+      text-align: center;
+      margin-top: 28px;
+      font-family: "Scotch Deck", serif;
+    }
+
+    .main-wrapper {
+      .lays {
+        flex-direction: column;
+        position: absolute;
+        left: 349.42px;
+      }
+      .person-wrapper {
+        margin-top: 59px;
+        gap: 76.5px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+        .person {
+          gap: 8px;
+          color: #fff;
+          font-weight: 500;
+          font-size: 20px;
+          line-height: 136%;
+          letter-spacing: 0.02em;
+        }
+      }
+      .zigzag {
+        position: absolute;
+        left: 1022.57px;
+        top: 222px;
+      }
+      .degree {
+        display: flex;
+        gap: 36px;
+        position: absolute;
+        color: #fff;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 136%;
+        letter-spacing: 0.02em;
+        transform: rotate(270deg);
+        left: 1293px;
+      }
+      .explore {
+        position: absolute;
+        gap: 16px;
+        color: #fff;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 136%;
+        letter-spacing: 0.02em;
+        left: 1152px;
+        top: 368px;
+
+        .next {
+          width: 80px;
+          height: 80px;
+          border: 2px solid #fff;
+          border-radius: 12px;
+          justify-content: center;
+        }
+      }
+    }
+  }
+}
