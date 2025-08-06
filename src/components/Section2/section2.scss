@@ -1,0 +1,75 @@
+.section2 {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  gap: 91px;
+  position: relative;
+
+  .image{
+    width: 315px;
+    height: 328px;
+    position: absolute;
+    bottom: 0;
+  }
+
+  .wrapper {
+    display: flex;
+    justify-content: space-between;
+    gap: 129px;
+
+    div {
+      color: #1e2438;
+      font-weight: 500;
+      font-size: 100px;
+      line-height: 100%;
+      letter-spacing: 0em;
+      font-family: "Scotch Deck", serif;
+      position: relative;
+
+      .button {
+        margin-top: 65px;
+        width: 100%;
+        display: flex;
+        justify-content: end;
+        position: absolute;
+        top: 370px;
+      }
+    }
+  }
+  .wrapper-2 {
+    display: flex;
+    flex-wrap: wrap;
+
+    div {
+      &:nth-child(1) {
+        max-width: 30%;
+        width: 100%;
+      }
+      &:nth-child(2) {
+        max-width: 70%;
+        width: 100%;
+        hr {
+          margin: 20px 0;
+          border: 2px solid #d9d9d9;
+        }
+
+        p {
+          &:first-child {
+            color: #1e2438;
+            font-weight: 500;
+            font-size: 32px;
+            line-height: 100%;
+            letter-spacing: 0em;
+          }
+          &:nth-child(3) {
+            color: #1e2438;
+            font-weight: 500;
+            line-height: 170%;
+            font-size: 16px;
+            letter-spacing: 0em;
+          }
+        }
+      }
+    }
+  }
+}

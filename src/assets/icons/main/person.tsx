@@ -72,10 +72,13 @@ export const Persons = () => (
   </svg>
 );
 
-export const NextIcon1 = () => (
+interface Nexticon1Props {
+  color?: string;
+}
+export const NextIcon1: React.FC<Nexticon1Props> = ({color}) => (
   <svg xmlns="http://www.w3.org/2000/svg" width={18} height={15} fill="none">
     <path
-      fill="#fff"
+      fill={color}
       d="M1 6.5a1 1 0 0 0 0 2v-2Zm16.707 1.707a1 1 0 0 0 0-1.414L11.343.429A1 1 0 1 0 9.93 1.843L15.586 7.5l-5.657 5.657a1 1 0 0 0 1.414 1.414l6.364-6.364ZM1 8.5h16v-2H1v2Z"
     />
   </svg>
