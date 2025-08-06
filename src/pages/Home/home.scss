@@ -14,10 +14,11 @@
     }
 
     .main-wrapper {
+      position: relative;
       .lays {
         flex-direction: column;
         position: absolute;
-        left: 349.42px;
+        left: 249.42px;
       }
       .person-wrapper {
         margin-top: 59px;
@@ -37,8 +38,8 @@
       }
       .zigzag {
         position: absolute;
-        left: 1022.57px;
-        top: 222px;
+        left: 922.57px;
+        top: 22px;
       }
       .degree {
         display: flex;
@@ -50,7 +51,7 @@
         line-height: 136%;
         letter-spacing: 0.02em;
         transform: rotate(270deg);
-        left: 1293px;
+        left: 1193px;
       }
       .explore {
         position: absolute;
@@ -61,7 +62,7 @@
         line-height: 136%;
         letter-spacing: 0.02em;
         left: 1152px;
-        top: 368px;
+        top: 168px;
 
         .next {
           width: 80px;
