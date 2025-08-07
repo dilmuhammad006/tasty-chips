@@ -16,6 +16,7 @@
     .main-wrapper {
       position: relative;
       object-fit: contain;
+      max-height: 700px;
       .lays {
         flex-direction: column;
         position: absolute;
